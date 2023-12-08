@@ -1,18 +1,25 @@
-package com.shiry.days;
-
-import java.io.BufferedReader;
 import java.io.IOException;
-import java.io.InputStream;
-import java.io.InputStreamReader;
+import java.io.File;
 import java.util.Arrays;
+import java.util.Scanner;
 import java.util.LinkedList;
 
-public class Day1 {
+public class Main {
+    public static void main(String[] args) {
+        if (args.length < 1) {
+            System.out.printf("ERROR: You must provide the input file name!\n");
+            System.out.printf("USAGE: java Day1Part1.java day1part1-input.txt");
+            return;
+        }
 
-    public int calc(int dim) {
+        System.out.printf("Day1 part 1 result: %d", new Day1Part1().calc(100, args[0]));
+    }
+}
+class Day1Part1 {
+    public int calc(int dim, String fileName) {
         String[] lines;
         try {
-            lines = readFile();
+            lines = readFile(fileName);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -37,16 +44,13 @@ public class Day1 {
         return getTotal(digits, -1, 0);
     }
 
-    private String[] readFile() throws IOException {
+    private String[] readFile(String fileName) throws IOException {
         LinkedList<String> list = new LinkedList<>();
-        InputStream stream = getClass().getClassLoader().getResourceAsStream("day1-input.txt");
-        assert stream != null;
-
-        BufferedReader reader = new BufferedReader(new InputStreamReader(stream));
-        String line;
-        while ((line = reader.readLine()) != null)
-            list.add(line);
-        stream.close();
+        Scanner reader = new Scanner(new File(fileName));
+        assert reader != null;
+        while (reader.hasNextLine())
+            list.add(reader.nextLine());
+        reader.close();
         return list.toArray(new String[0]);
     }
 
