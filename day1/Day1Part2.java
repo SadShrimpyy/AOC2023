@@ -31,10 +31,8 @@ class Day1Part2 {
         HashMap<String, Integer> table = loadTable();
 
         int tot = 0;
-        for (String line : input) {
+        for (String line : input)
             tot += findFirst(line, table) * 10 + findLast(line, table);
-            System.out.printf("%40s - %d - %d\n", line, findFirst(line, table), findLast(line, table));
-        }
         return tot;
     }
 
