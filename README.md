@@ -15,3 +15,5 @@ Link to the channel (live videos of code development): [Channel](https://www.you
 [Day 1 Part 1](https://youtu.be/tOfqPXPxFGs) - Matrix and Recursion
 
 [Day 1 Part 2](https://youtu.be/4GI5FnVSIdA) - HashMap and new Project
+
+[Day 2 Part 1](https://youtu.be/h25XLtLZ2jI) - Ah, there were two spaces...
