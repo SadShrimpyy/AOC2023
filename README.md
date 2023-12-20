@@ -23,3 +23,5 @@ Link to the channel (live videos of code development): [Channel](https://www.you
 [Day 3 Part 1](https://youtu.be/F5zg2gHrMOU) - The JDB debugger helped us a lot
 
 [Day 3 Part 2](https://youtu.be/vXxgHP6RNcA) - Neovim + The input was wrong...
+
+[Day 4 Part 1](https://youtu.be/da1qPi43fB8) - Faster than expected
