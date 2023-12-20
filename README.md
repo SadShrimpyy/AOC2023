@@ -21,3 +21,5 @@ Link to the channel (live videos of code development): [Channel](https://www.you
 [Day 2 Part 2](https://youtu.be/V9B_NHZOAxA) - Interesting about the ternary operator!
 
 [Day 3 Part 1](https://youtu.be/F5zg2gHrMOU) - The JDB debugger helped us a lot
+
+[Day 3 Part 2](https://youtu.be/vXxgHP6RNcA) - Neovim + The input was wrong...
