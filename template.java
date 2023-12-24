@@ -16,12 +16,12 @@ public class Main {
             return;
         }
 
-        int sum = new DayNPartM().calc(args[0]);
+        int sum = new Magic().calc(args[0]);
         if (sum >= 0) System.out.printf("##: %d", sum);
     }
 }
 
-class DayNPartM {
+class Magic {
     private int totSum = 0;
 
     public int calc(String fileName) {
