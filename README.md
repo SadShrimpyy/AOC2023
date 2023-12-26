@@ -27,3 +27,5 @@ Link to the channel (live videos of code development): [Channel](https://www.you
 [Day 4 Part 1](https://youtu.be/da1qPi43fB8) - Faster than expected
 
 [Day 4 Part 2](https://youtu.be/gqzr8JkXD9U) - Damn +...
+
+[Day 5 Part 1](https://youtu.be/YU-J7dQG7j0) - ASMR + It was a LONG type
